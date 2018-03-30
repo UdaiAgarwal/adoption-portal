@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  font-family:sans-serif;
+}
+a{
+  color:inherit;
+  text-decoration: inherit;
+}
+#top_menu{
+  border: 1px solid;
+}
+#top_menu li{
+  display:inline-block;
+}
+#parent_user{
+  width:100%;
+  height:30px;
+  justify-content: center;
+}
+#user{
+  width:25%;
+  float: right;
+  border-radius:8px;
+  background: #f1f1f1;
+  height:inherit;
+  max-width: 250px;
+  justify-content: center;
+  text-align: center;
+  padding:7px;
+}
+nav button{
+  border:none;
+  background-color:inherit;
+  padding: 8px 20px;
+  width: 100%;
+}
+button:hover{
+  background-color: #eeeeee;
+  border-radius: 6px;
+}
+table{
+  margin:5%;
+  width:90%;
+}
+td{
+  text-align: center;
+  padding: 10px;
+  font-family:monospace;
+  font-size: 20px;
+}
+td:hover{
+  background: #f6f6f6;
+  border-radius: 6px;
+  transition:500ms;
+}
+.t_header{
+  font-weight: bold;
+}
+#cart button{
+  width:100%;
+  height: 50px;
+  background: #2196F3;
+  color: #ffffff;
+  border:none;
+  border-radius: 6px;
+}
+#log{
+  background: #26A6F8;
+  border-radius:6px;
+}
+#log:hover{
+  background: #2196F3;
+}
+footer{
+  bottom:0;
+  margin-top: 15px;
+  clear: both;
+  width:100%;
+  text-aligh:center;
+  padding: 20px;
+  border-top:2px solid green;
+}
+footer a{
+  display:inline-block;
+  width: 200px;
+  color: #464646;
+  margin-bottom: 15px
+}
+footer a:hover{
+  color: #2196F3;
+}
